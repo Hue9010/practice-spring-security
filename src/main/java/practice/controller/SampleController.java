@@ -21,10 +21,10 @@ public class SampleController {
 		return "guest";
 	}
 	
-	@GetMapping("/manage")
+	@GetMapping("/manager")
 	public String manage() {
-		log.info("manage");
-		return "manage";
+		log.info("manager");
+		return "manager";
 	}
 	
 	@GetMapping("/admin")

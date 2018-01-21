@@ -13,6 +13,9 @@ public class LoginController {
 	
 	@GetMapping("/accessDenied")
 	public void accessDenied() {
-		System.out.println("heee");
+	}
+	
+	@GetMapping("/logout")
+	public void logout() {
 	}
 }
